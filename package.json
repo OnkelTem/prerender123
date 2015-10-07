@@ -1,0 +1,29 @@
+{
+  "name": "Prerender",
+  "version": "0.1.0",
+  "dependencies": {
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "minimist": "~1.1.1",
+    "wrench": "~1.5.8",
+    "del": "~1.2.0",
+    "gulp": "~3.9.0",
+    "gulp-eslint": "~0.14.0",
+    "gulp-if": "~1.2.5",
+    "gulp-changed": "~1.2.1",
+    "gulp-load-plugins": "~0.10.0"
+  },
+  "//": "CUSTOM CONFIGURATION",
+  "config": {
+    "//": "Entry files",
+    "host": "127.0.0.1",
+    "port": "3000",
+    "baseUrl": "./",
+    "directories": {
+      "source": "src",
+      "destination": "build",
+      "temporary": "tmp"
+    }
+  }
+}

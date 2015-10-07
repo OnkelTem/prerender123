@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": false,
+    "node": true,
+    "phantomjs": true
+  },
+  "rules": {
+    "no-use-before-define": 1,
+    "quotes": [2, "single"],
+    "camelcase": [2, {"properties": "never"}],
+    "no-unused-vars": [1, {"vars": "local", "args": "none"}],
+    "no-eval": 0
+  },
+  "globals": {
+    "phantom": true,
+    "document": true
+  }
+}

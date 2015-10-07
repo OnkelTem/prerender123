@@ -1,0 +1,11 @@
+{
+  "name"             : "prerender",
+  "args"             : ["127.0.0.1:8080"],
+  "script"           : "app/app.js",
+  "merge_logs"       : true,
+  "vizion"           : false,
+  "min_uptime"       : 5000,
+  "max_restarts"     : 1,
+  "autorestart"      : false,
+  "exec_interpreter" : "/home/fantomas/bin/phantomjs"
+}
